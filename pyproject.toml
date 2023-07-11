@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lh-ed"
+version = "0.1.0"
+description = ""
+authors = ["joao.miranda <jpfmirandaa@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lh_ed"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.6"
+SQLAlchemy = "^2.0.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
